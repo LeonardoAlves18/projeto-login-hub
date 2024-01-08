@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/*Pagina de login*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    main#cadastro {
+        background-image: linear-gradient(to right, #232323, #4d4d4d);
+    }
+
+    main#cadastro > section#login {
+        width: 90vw;
+        height: 330px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        height: 100%;
+        width: 30%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+
+    form > a#cc {
+        
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 220px;
+        margin-left:300px;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+        main#cadastro {
+        background-image: linear-gradient(to left, #1a1a1a, #4d4d4d);
+    }
+
+    main#cadastro > section#login {
+        width: 950px;
+        height: 330px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        height: 100%;
+        width: 40%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 60%;
+        height: 100%;
+    }
+
+    form > a#cc {
+
+        position: fixed;
+        bottom: 0;
+        margin-left: -6.1px;
+        border-radius: 0px;
+        padding: 5px;
+        display: block;
+        width: 73%;
+    }
+}
+
+/*Pagina de recupera senha*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main#tela > section#recuperacao {
+        width: 60vw;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main#tela > section#recuperacao {
+        width: 590px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    main#registre > section#dados {
+        width: 60vw;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main#registre > section#dados {
+        width: 700px;
+    }
+
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar senha | Script</title>
+    <link rel="stylesheet" href="../style/stylepg.css">
+    <link rel="stylesheet" href="../style/media-querys.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="shortcut icon" href="../imagen/foguete.png" type="image/x-icon">
+</head>
+<body>
+    <main id="tela">
+        <section id="recuperacao">
+            <div id="formulario">
+                <h1>Recuperar senha</h1>
+                <form action="repup.html" method="GET" autocomplete="on">
+                    <div class="resetsenha">
+                        <span class="material-icons">
+                            email
+                            </span>
+                            <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="Seu e-mail" minlength="10" maxlength="20">
+                        <label for="imail">e-mail</label>
+                    </div>
+                    <p>Um codigo sera enviado para seu e-mail use ele para mudar a senha.</p>
+                    <input type="submit" value="Confirmar">
+                    <a href="../index.html" class="anterior">Voltar</a>
+                </form>
+            </div>
+        </section>
+        <footer><p>Feito pelo Desenvolvedor <a href="https://github.com/LeonardoAlves18" target="_blank">Leonardo.C <span class="material-icons">
+            verified
+            </span>  </a> </p></footer>
+    </main>
+</body>
+</html>

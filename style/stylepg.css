@@ -1,0 +1,312 @@
+@charset "UTF-8";
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Pagina de recuperação de senha*/
+
+body, html {
+    background: #121212dc;
+}
+
+main#tela {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+main#tela > section#recuperacao {
+    background: #121212;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 20px;
+    transition: 0.3s;
+    -o-transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+}
+
+section#recuperacao > div#formulario > h1 {
+    color: white;
+
+    margin-top: 3px;
+    text-align: center;
+}
+
+div#formulario > form > div.resetsenha {
+    background: #919191;
+
+    display: block;
+    margin: 20px auto 10px;
+    width: 90%;
+    height: 40px;
+}
+
+form > p {
+    color: white;
+
+    text-align: center;
+    padding: 0px 10px;
+}
+
+div.resetsenha > span {
+    color: #121212;
+
+    width: 40px;
+    font-size: 2em;
+    padding: 5px;
+
+}
+
+div.resetsenha > input {
+    border: 2px solid #919191;
+
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+    height: 100%;
+    width: calc(100% - 46px);
+    transform: translateY(-10.1px);
+}
+
+div.resetsenha > input:focus-within {
+    background-color: #121212b9;
+
+}
+
+div.resetsenha > label{
+    display: none;
+}
+
+form > input[type=submit] {
+    background: #919191;
+
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    height: 40px;
+    cursor: pointer;
+    transition: background 0.4s;
+}
+
+form > input[type=submit]:hover {
+    background: #b3b1b1;
+
+}
+
+form > a.anterior {
+    color: white;
+
+    display: block;
+    font-size: 1em;
+    text-align: center;    
+    width: 10%;
+    height: 30px;
+    padding-top: 3px;
+    margin: auto;
+    transition: 0.4s;
+}
+
+form > a.anterior:hover {
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.534);
+}
+
+footer {
+    background: black;
+    color: white;
+
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    position: fixed;
+}
+
+footer > p > a {
+    color: white;
+    
+    font-size: 1.1em;
+    text-decoration: none;
+}
+footer > p > a:hover {
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.397);
+
+    text-decoration: underline;
+}
+
+footer > p > a > span {
+    font-size: 0.8em;
+}
+
+/*Pagina de Novo Usuario*/
+
+main#registre {
+    background: linear-gradient(to bottom,#1A1A1A, #474747 );
+
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+main#registre > section#dados {
+    background: #70707071;
+
+    overflow: hidden;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    transition: 0.3s;
+    -o-transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+}
+
+section#dados > h1 {
+    color: white;
+
+    text-align: center;
+    margin-top: 30px;
+}
+
+section#dados > form {
+    background: #1A1A1A;
+
+    margin: 10px 0px 0px;
+    padding: 5px;
+}
+
+form > legend {
+    background: #1A1A1A;
+    color: white;
+
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.9em;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.438);
+}
+
+form > div#sex {
+    background: #474747;
+    color: white;
+
+    display: block;
+    height: 100px;
+    width: 220px;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form > div#sex > legend {
+    text-align: center;
+    margin:  10px 0px;
+}
+
+form > div#sex > div.sexcamp {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+form > div.campos {
+    color: white;
+
+    width: 70%;
+    text-align: center;
+    margin: 10px auto 0px ;
+}
+
+div.campos > label {
+    float: left;
+}
+
+div.campos > input {
+    border-radius: 7px;
+
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+}
+div.campos > input:focus-within {
+    background: #C2C2C2;
+}
+
+form > div#homebotao input[type=submit] {
+    background: #999999;
+
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+    transition: background 0.4s;
+}
+
+form > div#homebotao input[type=submit]:hover {
+    background: #C2C2C2;
+
+}
+
+form > div#homebotao a.anterior {
+    color: white;
+
+    display: block;
+    font-size: 1em;
+    text-align: center;    
+    width: 10%;
+    height: 40px;
+    padding-top: 5px;
+    margin: auto;
+    transition: 0.4s;
+}
+
+form > div#homebotao a.anterior:hover {
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.534);
+}
+
+footer {
+    background: black;
+    color: white;
+
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    position: fixed;
+}
+
+footer > p > a {
+    color: white;
+    
+    font-size: 1.1em;
+    text-decoration: none;
+}
+footer > p > a:hover {
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.397);
+
+    text-decoration: underline;
+}
+
+footer > p > a > span {
+    font-size: 0.8em;
+}
