@@ -102,3 +102,72 @@
     }
 
 }
+    /* tela de novo ussuario */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main#registre > section#dados {
+        height: 500px;
+    }
+
+    form > div#sex {
+        display: none;
+    }
+
+    form > div#homebotao {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    form > div#homebotao > input[type=submit] {
+        display: inline;
+        width: 300px;
+
+    }
+
+    form > div#homebotao > a.anterior {
+        background: #919191;
+        color: #121212;
+        
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.4s;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main#registre > section#dados {
+        width: 70vw;
+        height: 650px;
+    }
+
+    form > div#homebotao {
+        display: flex;
+    }
+
+    form > div#homebotao > input[type=submit] {
+        display: inline;
+        width: 300px;
+
+    }
+
+    form > div#homebotao > a.anterior {
+        background: #919191;
+        color: #121212;
+        
+        padding-top: 7px;
+        text-decoration: none;
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.4s;
+    }
+
+    form > div#homebotao > a.anterior {
+        background: #BABABA;
+
+    }
+}
