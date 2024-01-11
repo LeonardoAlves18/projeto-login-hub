@@ -168,9 +168,8 @@ main#registre > section#dados {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 450px;
+    min-width: 360px;
     transition: 0.3s;
-    -o-transition-timing-function: ease;
     transform: translate(-50%, -50%);
 }
 
@@ -206,7 +205,7 @@ form > div#sex {
     background: #474747;
     color: white;
 
-    display: block;
+    display: none;
     height: 100px;
     width: 220px;
     margin: 10px auto;

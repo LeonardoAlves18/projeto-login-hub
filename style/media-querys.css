@@ -139,7 +139,7 @@
 @media screen and (min-width: 992px) {
     main#registre > section#dados {
         width: 70vw;
-        height: 650px;
+        height: 550px;
     }
 
     form > div#homebotao {
