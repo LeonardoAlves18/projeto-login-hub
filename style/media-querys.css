@@ -166,7 +166,7 @@
         transition: background 0.4s;
     }
 
-    form > div#homebotao > a.anterior {
+    form > div#homebotao > a.anterior:hover {
         background: #BABABA;
 
     }
